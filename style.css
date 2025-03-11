@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url("background.jpg") no-repeat center / cover;
+    padding: 50px 5%;
+    backdrop-filter: blur(8px) contrast(1.2);
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+    transform: scale(0.8);
+    opacity: 0;
+    will-change: transform, opacity;
+    animation: zoom-in 1.2s ease-out forwards;
+}
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.animated {
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slide-in 1.2s ease forwards;
+    animation-delay: 1s;
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    border-color: #fff;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 50px 5% 0;
+    color: #fff;
+}
+
+.home-detail h1 {
+    font-size: 55px;
+    line-height: 1;
+}
+
+.home-detail h2 {
+    font-size: 32px;
+}
+
+.home-detail p {
+    margin: 10px 0 20px;
+}
+
+.home-detail .download-social {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+    background: transparent;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.home-detail .social-icons {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-detail .social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.home-detail .social-icons a:hover {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    color: #333;
+    transform: scale(1.2) rotate(10deg);
+}
+
+.home-img .img-box {
+    position: relative;
+    width: 23vw;
+    height: 23vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    animation: loadAnimation 2s infinite;
+}
+
+.home-img .img-box:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);
+}
+
+.home-img .img-box img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-img .img-box:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+@keyframes loadAnimation {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
