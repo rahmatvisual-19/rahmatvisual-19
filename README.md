@@ -1,16 +1,57 @@
-## Hi there 👋
+# 🌟 Personal Portfolio Website
 
-<!--
-**rahmatvisual-19/rahmatvisual-19** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my personal portfolio website! 🚀 This project showcases my skills, projects, and professional journey as a Frontend Developer. Dive in and explore! 🎨💻
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔥 Features
+✅ **Responsive Design** – Works on all devices 📱💻🖥️  
+✅ **Smooth Animations** – CSS animations for a sleek experience 🎭  
+✅ **Dark & Light Mode** – Because aesthetics matter! 🌙☀️  
+✅ **Fast & Optimized** – Lightning-fast load times ⚡  
+✅ **Social Media Links** – Connect with me easily 🔗  
+
+---
+
+## 🚀 Technologies Used
+- **HTML5** – Semantic structure
+- **CSS3** – Modern & responsive styling
+- **JavaScript** – Interactive elements
+- **Remix Icons** – Sleek, modern icons
+
+---
+
+## 🎨 UI/UX Highlights
+- **Blurred glass effect** for a futuristic feel ✨
+- **Hover effects** on buttons & images 🖱️
+- **Smooth scrolling** for an effortless experience 🎢
+
+---
+
+## 📷 Preview
+![image](https://github.com/user-attachments/assets/74393be1-0ef0-409d-8564-ee614fde714a)
+
+---
+
+## 📦 Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/portfolio-website.git
+   ```
+2. Open `index.html` in your browser
+3. Customize & enjoy! 🎉
+
+---
+
+## 🔗 Connect with Me
+📷 **Instagram** – [@rahmatvisual]((https://www.instagram.com/rahmat_visual/))  
+
+---
+
+## ❤️ Support
+If you like this project, consider giving it a ⭐ on GitHub! It helps me stay motivated. 😃✨
+
+---
+
+Happy coding! 🎨🚀
+
