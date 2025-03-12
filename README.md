@@ -1,58 +1,55 @@
-# 🌟 Personal Portfolio Website
+# 📌 Portfolio - Rahmat Maulana Miftah
 
-Welcome to my personal portfolio website! 🚀 This project showcases my skills, projects, and professional journey as a Frontend Developer. Dive in and explore! 🎨💻
-
----
-
-## 🔥 Features
-✅ **Responsive Design** – Works on all devices 📱💻🖥️  
-✅ **Smooth Animations** – CSS animations for a sleek experience 🎭  
-✅ **Dark & Light Mode** – Because aesthetics matter! 🌙☀️  
-✅ **Fast & Optimized** – Lightning-fast load times ⚡  
-✅ **Social Media Links** – Connect with me easily 🔗  
+Selamat datang di portofolio saya! 🚀 Saya adalah seorang mahasiswa Teknologi Informasi yang memiliki ketertarikan dalam desain, pengembangan web, dan pengeditan multimedia. Berikut adalah beberapa hal yang bisa kamu temukan di dalam portofolio ini.
 
 ---
 
-## 🚀 Technologies Used
-- **HTML5** – Semantic structure
-- **CSS3** – Modern & responsive styling
-- **JavaScript** – Interactive elements
-- **Remix Icons** – Sleek, modern icons
+## 🎨 Tentang Saya
+Nama: **Rahmat Maulana Miftah**  
+Bidang: **Desain, Web Development, Video Editing**  
+Brand Desain: **Zeno** (`Innovate With Zeno`)  
+Tech Stack: `HTML` `CSS` `JavaScript` `PHP` `Laravel`  
+
+Saya memiliki minat dalam pembuatan desain kreatif, pengembangan website, serta pengeditan foto dan video. Selain itu, saya juga mengembangkan beberapa proyek berbasis Laravel dan aplikasi untuk berbagai kebutuhan.
 
 ---
 
-## 🎨 UI/UX Highlights
-- **Blurred glass effect** for a futuristic feel ✨
-- **Hover effects** on buttons & images 🖱️
-- **Smooth scrolling** for an effortless experience 🎢
+## 🛠️ Teknologi yang Saya Gunakan
+- **Frontend:** HTML, CSS, JavaScript (React, Tailwind CSS)
+- **Backend:** PHP, Laravel
+- **Database:** MySQL
+- **Tools Desain:** Photoshop, Illustrator, Figma
+- **Video Editing:** Adobe Premiere, After Effects
 
 ---
 
-## 📷 Preview
-![image](https://github.com/user-attachments/assets/661a9a3f-d049-4066-9d4e-c177fd685a8d)
+## 💼 Proyek 
+### 🔹 Cempresso ☕
+_A blend of cempedak and coffee powder, bringing unique flavors to coffee lovers._
 
+### 🔹 Sistem Informasi Inventory Gudang 📦
+_Aplikasi berbasis web untuk mengelola stok barang di gudang dengan level user: Admin, Kepala Gudang, dan Super Admin._
 
----
+### 🔹 Infografis Glow Up Bareng Nabi 🌟
+_Pencerahan digital dengan elemen Islam yang inspiratif._
 
-## 📦 Setup & Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   ```
-2. Open `index.html` in your browser
-3. Customize & enjoy! 🎉
+Dan masih banyak lagi! ✨
 
 ---
 
-## 🔗 Connect with Me
-📷 **Instagram** – [@rahmatvisual]((https://www.instagram.com/rahmat_visual/))  
+## 📂 Struktur Proyek
+```bash
+📦 Portofolio
+ ┣ 📂 assets # File gambar, ikon, video, dll.
+ ┣ 📂 projects # Kumpulan proyek saya
+ ┣ 📂 styles # CSS untuk tampilan web
+ ┣ 📜 index.html # Halaman utama portofolio
+ ┣ 📜 README.md # Dokumentasi ini
+```
 
----
+## 📬 Hubungi Saya
+📧 Email: rhma48475@gmail.com.com  
+🔗 LinkedIn: -
+🎨 Instagram (Desain): [@rahmatvisual](https://instagram.com/rahmatvisual)  
 
-## ❤️ Support
-If you like this project, consider giving it a ⭐ on GitHub! It helps me stay motivated. 😃✨
-
----
-
-Happy coding! 🎨🚀
-
+Terima kasih telah mengunjungi portofolio saya! Jika ada feedback atau kolaborasi, jangan ragu untuk menghubungi saya. 🚀
