@@ -29,7 +29,8 @@ Welcome to my personal portfolio website! 🚀 This project showcases my skills,
 ---
 
 ## 📷 Preview
-![image](https://github.com/user-attachments/assets/74393be1-0ef0-409d-8564-ee614fde714a)
+![image](https://github.com/user-attachments/assets/661a9a3f-d049-4066-9d4e-c177fd685a8d)
+
 
 ---
 
